@@ -3,13 +3,26 @@
   "version": "1.0.0",
   "main": "oi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0"
-  }
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0",
+    "uuid": "^11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nes2ah/cursPGRM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nes2ah/cursPGRM/issues"
+  },
+  "homepage": "https://github.com/nes2ah/cursPGRM#readme",
+  "description": ""
 }
